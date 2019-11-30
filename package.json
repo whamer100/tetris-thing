@@ -1,15 +1,11 @@
 {
-  "name": "app",
-  "productName": "App",
-  "version": "0.0.0",
-  "description": "",
+  "name": "tetris-test",
+  "productName": "Tetris Test",
+  "version": "1.0.0",
+  "description": "written in electron + excalibur,js",
   "license": "MIT",
-  "repository": "user/repo",
-  "author": {
-    "name": "Excalibur.js Team",
-    "email": "",
-    "url": "https://github.com/excaliburjs"
-  },
+  "repository": "https://github.com/whamer100/tetris-thing",
+  "author": "whamer100",
   "scripts": {
     "test": "xo",
     "start": "node_modules/.bin/tsc -p src && electron ./src/",
